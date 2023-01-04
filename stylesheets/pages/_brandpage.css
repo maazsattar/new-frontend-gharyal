@@ -1,0 +1,52 @@
+.headers{
+  font-weight: 700;
+}
+
+.sub-headers{
+  font-weight: 300;
+}
+
+.category-content img{
+  width: 341px;
+  height: 361px;
+
+}
+
+.category-content a{
+  text-decoration: none;
+  color: black;
+}
+
+.category-content p:hover a{
+  color: rgb(124, 124, 124);
+}
+
+
+.category-content p{
+  text-align: center;
+  font-weight: 500;
+}
+
+.category-cards{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+hr{
+  width:90%;
+}
+
+.shop-all{
+  background-color: white;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 0.5px solid grey;
+}
+
+.shop-all p{
+  margin: 10px;
+}
