@@ -1,0 +1,36 @@
+.banner-left{
+  width: 630px;
+  height: 538px;
+  background-color: #F6F6F6;
+  margin-left: 50px;
+  margin-right: 10px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 18px;
+  z-index: -1;
+}
+
+
+.banner-left-text{
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.banner-left-logo{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.banner-right img{
+  width: 95%;
+  height: 650px;
+}
+
+.banner{
+  display: flex;
+  justify-content: space-between;
+}

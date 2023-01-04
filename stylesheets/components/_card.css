@@ -1,0 +1,44 @@
+.product-cards{
+  display: flex;
+  justify-content: start;
+  overflow-x: scroll;
+}
+
+.card{
+  padding-right: 20px;
+}
+
+.top-card{
+  height: 381px;
+  width: 341.9px;
+  background-color: #F2F2F2;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-card img{
+  height: 306.98px;
+}
+
+.bottom-card{
+  width: 351px;
+}
+
+.card-title{
+  font-weight: 600;
+}
+
+.card-price{
+  font-weight: 700;
+}
+
+.bottom-stats{
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-stats p{
+  margin-top: 0;
+}
