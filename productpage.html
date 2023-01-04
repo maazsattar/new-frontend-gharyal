@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Gharyal</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="stylesheets/index.css">
+  </head>
+  <body>
+    <nav>
+      <div class="navbar">
+        <div class="top-navbar">
+          <div class="entire-search">
+          <div class="search-bar">
+            <i class="bi bi-search"></i>
+            <div class="search-form">
+              <form>
+                <input type="text" id="fname" name="fname" placeholder="Search" class="search"><br>
+              </form>
+            </div>
+          </div>
+          <hr class="search-divider">
+          </div>
+          <img class="logo" src="https://gharyal.com/media/logo/default/logo_ecomblack_lg.webp" alt="logo">
+          <div class="icons-right">
+            <i class="bi bi-person"></i>
+            <i class="bi bi-bag"></i>
+          </div>
+        </div>
+        <hr class="nav-divider">
+        <div class="bottom-navbar">
+          <div class="dropdown">
+            <span><p> <a href="#">SHOP WATCHES <i class="bi bi-chevron-down"></i></a> </p></span>
+            <div class="dropdown-content">
+              <p><a href="#">OMEGA</a></p>
+              <p><a href="#">Breitling</a></p>
+              <p><a href="#">Oris</a></p>
+              <p><a href="#">Ebel</a></p>
+              <p><a href="#">Luminox</a></p>
+              <p><a href="#">Titoni</a></p>
+            </div>
+          </div>
+          <div class="dropdown">
+            <span><p> <a href="#">SHOP JEWELLERY <i class="bi bi-chevron-down"></i></a> </p></span>
+            <div class="dropdown-content">
+              <p><a href="#">Bracelets</a></p>
+              <p><a href="#">Earrings</a></p>
+              <p><a href="#">Necklace</a></p>
+              <p><a href="#">Pendant</a></p>
+            </div>
+          </div>
+          <div class="dropdown">
+            <span><p> <a href="#">SHOP PERFUMES <i class="bi bi-chevron-down"></i></a> </p></span>
+            <div class="dropdown-content">
+              <p><a href="#">Parfums De Marly</a></p>
+              <p><a href="#">Initio</a></p>
+              <p><a href="#">Thameen</a></p>
+            </div>
+          </div>
+          <div class="dropdown">
+            <span><p> <a href="#">SHOP ACCESSORIES <i class="bi bi-chevron-down"></i></a> </p></span>
+            <div class="dropdown-content">
+              <p><a href="#">Sunglasses</a></p>
+              <p><a href="#">Cufflinks</a></p>
+              <p><a href="#">Keyholders</a></p>
+            </div>
+          </div>
+          <p>BRANDS</p>
+          <p>SONRAJ TV</p>
+          <p>SELL YOUR WATCH</p>
+          <p>NEWSLETTER</p>
+          </div>
+        </div>
+        <hr class="nav-bottom">
+      </div>
+    </nav>
+  <div class="container" style="margin-left: 80px; margin-right: 80px;">
+    <div class="breadcrumbs">
+      <p> <a href="#">Brands</a> > <a href="#">Parfums De Marly</a> > Haltane</p>
+    </div>
+
+    <div class="content">
+      <div class="images">
+        <div class="image-big">
+          <img src="/images/haltane.png" alt="">
+        </div>
+        <div class="images-small">
+          <div class="small"></div>
+          <div class="small"></div>
+          <div class="small"></div>
+          <div class="small"></div>
+        </div>
+      </div>
+      <div class="text">
+        <div class="text-top">
+          <h1>HALTANE</h1>
+          <h2 class="sub">EAU DE PARFUM</h2>
+          <p>Size: 125ml</p>
+          <div class="price-bar">
+            <div class="price-text">
+              <p style="margin-bottom:7px;">Price</p>
+              <h2 class="price">PKR 00,000</h2>
+            </div>
+            <div class="counter">
+              <span class="down" onClick='decreaseCount(event, this)'>-</span>
+              <input type="text" value="1">
+              <span class="up" onClick='increaseCount(event, this)'>+</span>
+              <script>
+                function increaseCount(a, b) {
+                  var input = b.previousElementSibling;
+                  var value = parseInt(input.value, 10);
+                  value = isNaN(value) ? 0 : value;
+                  value++;
+                  input.value = value;
+                }
+
+                function decreaseCount(a, b) {
+                  var input = b.nextElementSibling;
+                  var value = parseInt(input.value, 10);
+                  if (value > 1) {
+                    value = isNaN(value) ? 0 : value;
+                    value--;
+                    input.value = value;
+                  }
+                }
+              </script>
+            </div>
+          </div>
+          <div class="buttons">
+            <button class="basket"><p>Add to basket</p></button><br>
+            <button class="favourites"><p>Add to favourites</p></button>
+          </div>
+        </div>
+        <hr class="product-text-divider">
+        <div class="text-bottom">
+          <p>Haltane is an original scent of both radiance and shadow. Its composition features a blend of rare and noble ingredients which revisit the tradition of 18th century French perfume making. <br> <br>
+            Its dazzling freshness and herbal top notes quickly yield a warm and smooth sense of leather with a symphony of precious woods. Soft and sweet, escorted by saffron, its praline accord is an ultra-contemporary spin on the mythical oudwood. <br> <br>
+            Agarwood emerges in this veil of contrasts and imprints the skin with luminous refinement for enduring comfort. A privilege that is all about sensation.
+            </p>
+        </div>
+      </div>
+    </div>
+    <hr style="margin-top: 30px; margin-bottom: 30px; width: 100%;">
+    <div class="notes">
+      <div class="oflactive">
+        <p ><strong>OFLACTIVE NOTES</strong></p>
+        <p><strong>Top Notes</strong></p>
+        <p >Bergamot, Lavender, Clary Sage</p>
+
+        <p><strong>Mid Notes</strong></p>
+        <p >Saffron, Cedar Wood, Praline, Oudwood</p>
+
+        <p><strong>Base Notes</strong></p>
+        <p>Patchouli, Vetiver, Musk, Leather, Natural, Agarwood</p>
+      </div>
+      <div class="ingredients" style="width: 550px;">
+        <p ><strong>INGREDIENTS</strong></p>
+        <p >Alcohol Denat., Parfum, Aqua, Limonene, Linalool, Benzyl Salicylate, Coumarin, Alpha-isomethyl Ionone, Eugenol, Citronellol, Citral, Geraniol
+        </p>
+        <p><strong>Made in France</strong></p>
+      </div>
+    </div>
+    <br>
+    <div class="more">
+      <h2>MORE FROM PARFUMS DE MARLY</h2>
+      <div class="product-cards">
+        <div class="card">
+          <div class="top-card">
+            <img src="/images/haltane.png" alt="">
+          </div>
+          <div class="bottom-card">
+            <p class="card-title">HALTANE</p>
+            <div class="bottom-stats">
+              <p>Parfums de Marly</p>
+              <p class="card-price">PKR 00,000</p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="top-card">
+            <img src="/images/delina.png" alt="">
+          </div>
+          <div class="bottom-card">
+            <p class="card-title">DELINA</p>
+            <div class="bottom-stats">
+              <p>Parfums de Marly</p>
+              <p class="card-price">PKR 00,000</p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="top-card">
+            <img src="/images/layton.png" alt="">
+          </div>
+          <div class="bottom-card">
+            <p class="card-title">LAYTON</p>
+            <div class="bottom-stats">
+              <p>Parfums de Marly</p>
+              <p class="card-price">PKR 00,000</p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="top-card">
+            <img src="/images/oriana.png" alt="">
+          </div>
+          <div class="bottom-card">
+            <p class="card-title">ORIANA</p>
+            <div class="bottom-stats">
+              <p>Parfums de Marly</p>
+              <p class="card-price">PKR 00,000</p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="top-card">
+            <img src="/images/haltane.png" alt="">
+          </div>
+          <div class="bottom-card">
+            <p class="card-title">HALTANE</p>
+            <div class="bottom-stats">
+              <p>Parfums de Marly</p>
+              <p class="card-price">PKR 00,000</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr style="margin-top:30px;margin-bottom:30px;width: 100%;">
+      <button class="shop-all"> <p>SHOP ALL</p></button>
+    </div>
+  </div>
+  <hr style="margin-top:50px;width:95%;border: 0.5px solid rgb(237, 237, 237);">
+  <div class="footer">
+    <div class="footer-top">
+      <div class="footer-top-left">
+        <img class="footer-logo" src="https://gharyal.com/media/logo/default/logo_ecomblack_lg.webp" alt="logo">
+        <p style="color:#434141">Copyright Gharyal, Inc. All Rights Reserved </p>
+      </div>
+      <div class="footer-top-right">
+        <img src="/images/hbl.png" alt="hbl">
+        <img src="/images/mastercard.png" alt="mastercard">
+        <img src="/images/visa.png" alt="visa">
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <!-- to be filled with footer links -->
+    </div>
+  </div>
+  </body>
